@@ -20,9 +20,27 @@
         overflow-x: hidden; */
         /* border: 3px solid steelblue; */
       }
+      .ellipsis {
+        width: 200px;
+        white-space: nowrap;
+        border: 2px solid steelblue;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* text-overflow: clip; */
+      }
     </style>
   </head>
   <body>
+    <header>
+      <p
+        title=" I am a serious learning. I am investing at least 6-8 hours in a single
+      day."
+        class="ellipsis"
+      >
+        I am a serious learning. I am investing at least 6-8 hours in a single
+        day.
+      </p>
+    </header>
     <!-- .box*2>h3{My Text box $}+p>lorem200 -->
     <div class="box" id="box-1">
       <h3>My Text Box 1</h3>
